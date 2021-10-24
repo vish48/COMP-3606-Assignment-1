@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="car">Car</string>
+    <string name="car_imports">AV\'s Car Imports</string>
+    <string name="prompt1">Please select your car and options</string>
+    <string name="lambo">Lamborghini Aventador SV</string>
+    <string name="leather_interior">Leather Interior</string>
+    <string name="fabric_interior">Fabric Interior</string>
+    <string name="sport_package">Sport Package</string>
+    <string name="ferarri">Ferarri La Ferarri</string>
+    <string name="supra">Toyota Supra</string>
+    <string name="add">Add To Cart</string>
+    <string name="cart_icon">cart</string>
+    <string name="complete_order">Complete Order</string>
+    <string name="display_order">Display Order</string>
+</resources>

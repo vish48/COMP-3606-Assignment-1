@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#120101"
+    tools:context=".MainActivity" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:outlineAmbientShadowColor="#00BCD4"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="230dp"
+            android:contentDescription="@string/car"
+            android:foregroundTint="#003F51B5"
+            android:scaleType="fitStart"
+            android:src="@drawable/car" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#009C27B0"
+            android:gravity="top|center"
+            android:paddingStart="60dp"
+            android:paddingEnd="0dp"
+            android:paddingBottom="20dp"
+            android:text="@string/car_imports"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#7243C5"
+            android:textSize="34sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingVertical="56dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="224dp"
+                android:fontFamily="serif"
+                android:paddingTop="180dp"
+                android:paddingBottom="10dp"
+                android:text="@string/prompt1"
+                android:textColor="#F8F6F6"
+                android:textColorHighlight="#7446C5" />
+
+
+            <CheckBox
+                android:id="@+id/Lamborghini_checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:checked="false"
+                android:paddingStart="20dp"
+                android:paddingEnd="0dp"
+                android:text="@string/lambo"
+                android:textColor="#E4E1E1"
+                android:textSize="16sp" />
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="106dp">
+
+                <RadioButton
+                    android:id="@+id/Lambo_leather"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/leather_interior"
+                    android:textColor="#DADADA"
+                    android:textColorHighlight="#36B33B" />
+
+                <RadioButton
+                    android:id="@+id/Lambo_fabric"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fabric_interior"
+                    android:textColor="#DCDCDC"
+                    android:textColorHighlight="#36B33B" />
+            </RadioGroup>
+
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/Lambo_sport"
+                android:layout_width="186dp"
+                android:layout_height="70dp"
+                android:gravity="start"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:text="@string/sport_package"
+                android:textColor="#E4E1E1"
+                android:textSize="15sp" />
+
+
+            <CheckBox
+                android:id="@+id/Ferarri_checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:checked="false"
+                android:paddingStart="20dp"
+                android:paddingEnd="0dp"
+                android:text="@string/ferarri"
+                android:textColor="#E4E1E1"
+                android:textSize="16sp" />
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="106dp">
+
+                <RadioButton
+                    android:id="@+id/Ferarri_leather"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/leather_interior"
+                    android:textColor="#DADADA"
+                    android:textColorHighlight="#36B33B" />
+
+                <RadioButton
+                    android:id="@+id/Ferarri_fabric"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fabric_interior"
+                    android:textColor="#DCDCDC"
+                    android:textColorHighlight="#36B33B" />
+            </RadioGroup>
+
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/Ferarri_sport"
+                android:layout_width="186dp"
+                android:layout_height="65dp"
+                android:gravity="start"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:text="@string/sport_package"
+                android:textColor="#E4E1E1"
+                android:textSize="15sp" />
+
+
+            <CheckBox
+                android:id="@+id/Supra_checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:checked="false"
+                android:paddingStart="20dp"
+                android:paddingEnd="0dp"
+                android:text="@string/supra"
+                android:textColor="#E4E1E1"
+                android:textSize="16sp" />
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="106dp">
+
+                <RadioButton
+                    android:id="@+id/Supra_leather"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/leather_interior"
+                    android:textColor="#DADADA"
+                    android:textColorHighlight="#36B33B" />
+
+                <RadioButton
+                    android:id="@+id/Supra_fabric"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fabric_interior"
+                    android:textColor="#DCDCDC"
+                    android:textColorHighlight="#36B33B" />
+            </RadioGroup>
+
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/Supra_sport"
+                android:layout_width="186dp"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:text="@string/sport_package"
+                android:textColor="#E4E1E1"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:orientation="horizontal"
+                android:paddingVertical="20dp">
+
+                <ImageButton
+                    android:id="@+id/Add_cart"
+                    android:layout_width="53dp"
+                    android:layout_height="49dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/cart"
+                    android:contentDescription="@string/cart_icon" />
+
+                <TextView
+                    android:id="@+id/Add"
+                    android:layout_width="101dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:text="@string/add"
+                    android:textColor="#E4E1E1"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/complete"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:text="@string/complete_order" />
+
+            <Button
+                android:id="@+id/display"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:text="@string/display_order" />
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+</ScrollView>
