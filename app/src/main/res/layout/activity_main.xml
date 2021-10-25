@@ -54,7 +54,7 @@
 
 
             <CheckBox
-                android:id="@+id/Lamborghini_checkBox"
+                android:id="@+id/lambo_checkBox"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:checked="false"
@@ -66,21 +66,24 @@
 
 
             <RadioGroup
+                android:id="@+id/l_interior"
                 android:layout_width="match_parent"
                 android:layout_height="106dp">
 
                 <RadioButton
-                    android:id="@+id/Lambo_leather"
+                    android:id="@+id/lambo_leather"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:checked="false"
                     android:text="@string/leather_interior"
                     android:textColor="#DADADA"
                     android:textColorHighlight="#36B33B" />
 
                 <RadioButton
-                    android:id="@+id/Lambo_fabric"
+                    android:id="@+id/lambo_fabric"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:checked="false"
                     android:text="@string/fabric_interior"
                     android:textColor="#DCDCDC"
                     android:textColorHighlight="#36B33B" />
@@ -88,7 +91,7 @@
 
 
             <androidx.appcompat.widget.SwitchCompat
-                android:id="@+id/Lambo_sport"
+                android:id="@+id/lambo_sport"
                 android:layout_width="186dp"
                 android:layout_height="70dp"
                 android:gravity="start"
@@ -100,7 +103,7 @@
 
 
             <CheckBox
-                android:id="@+id/Ferarri_checkBox"
+                android:id="@+id/ferarri_checkBox"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:checked="false"
@@ -112,11 +115,12 @@
 
 
             <RadioGroup
+                android:id="@+id/f_interior"
                 android:layout_width="match_parent"
                 android:layout_height="106dp">
 
                 <RadioButton
-                    android:id="@+id/Ferarri_leather"
+                    android:id="@+id/ferarri_leather"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/leather_interior"
@@ -124,9 +128,10 @@
                     android:textColorHighlight="#36B33B" />
 
                 <RadioButton
-                    android:id="@+id/Ferarri_fabric"
+                    android:id="@+id/ferarri_fabric"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:checked="false"
                     android:text="@string/fabric_interior"
                     android:textColor="#DCDCDC"
                     android:textColorHighlight="#36B33B" />
@@ -134,7 +139,7 @@
 
 
             <androidx.appcompat.widget.SwitchCompat
-                android:id="@+id/Ferarri_sport"
+                android:id="@+id/ferarri_sport"
                 android:layout_width="186dp"
                 android:layout_height="65dp"
                 android:gravity="start"
@@ -146,7 +151,7 @@
 
 
             <CheckBox
-                android:id="@+id/Supra_checkBox"
+                android:id="@+id/supra_checkBox"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:checked="false"
@@ -158,11 +163,12 @@
 
 
             <RadioGroup
+                android:id="@+id/s_interior"
                 android:layout_width="match_parent"
                 android:layout_height="106dp">
 
                 <RadioButton
-                    android:id="@+id/Supra_leather"
+                    android:id="@+id/supra_leather"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/leather_interior"
@@ -170,9 +176,10 @@
                     android:textColorHighlight="#36B33B" />
 
                 <RadioButton
-                    android:id="@+id/Supra_fabric"
+                    android:id="@+id/supra_fabric"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:checked="false"
                     android:text="@string/fabric_interior"
                     android:textColor="#DCDCDC"
                     android:textColorHighlight="#36B33B" />
@@ -180,7 +187,7 @@
 
 
             <androidx.appcompat.widget.SwitchCompat
-                android:id="@+id/Supra_sport"
+                android:id="@+id/supra_sport"
                 android:layout_width="186dp"
                 android:layout_height="wrap_content"
                 android:gravity="start"
@@ -197,7 +204,7 @@
                 android:paddingVertical="20dp">
 
                 <ImageButton
-                    android:id="@+id/Add_cart"
+                    android:id="@+id/add_cart"
                     android:layout_width="53dp"
                     android:layout_height="49dp"
                     android:adjustViewBounds="true"
